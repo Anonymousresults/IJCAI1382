@@ -24,6 +24,7 @@ from samplers import RASampler
 import models
 import utils
 import ter_swin_transformer
+import ter_vision_transformer
 
 def get_args_parser():
     parser = argparse.ArgumentParser('DeiT training and evaluation script', add_help=False)
